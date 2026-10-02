@@ -1,0 +1,418 @@
+[
+ {
+  "id": "HDFCBANK",
+  "name": "HDFC Bank",
+  "sector": "Financials",
+  "buyPrice": 1490,
+  "qty": 50,
+  "code": "HDFCBANK",
+  "exchange": "NSE",
+  "yahoo": "HDFCBANK.NS",
+  "google": "HDFCBANK:NSE",
+  "fallback": {
+   "cmp": 1700.15,
+   "pe": 18.69,
+   "eps": 91.02
+  }
+ },
+ {
+  "id": "BAJFINANCE",
+  "name": "Bajaj Finance",
+  "sector": "Financials",
+  "buyPrice": 6466,
+  "qty": 15,
+  "code": "BAJFINANCE",
+  "exchange": "NSE",
+  "yahoo": "BAJFINANCE.NS",
+  "google": "BAJFINANCE:NSE",
+  "fallback": {
+   "cmp": 8419.6,
+   "pe": 32.63,
+   "eps": 257.8
+  }
+ },
+ {
+  "id": "532174",
+  "name": "ICICI Bank",
+  "sector": "Financials",
+  "buyPrice": 780,
+  "qty": 84,
+  "code": "532174",
+  "exchange": "BSE",
+  "yahoo": "532174.BO",
+  "google": "532174:BOM",
+  "fallback": {
+   "cmp": 1215.5,
+   "pe": 17.68,
+   "eps": 68.72
+  }
+ },
+ {
+  "id": "544252",
+  "name": "Bajaj Housing",
+  "sector": "Financials",
+  "buyPrice": 130,
+  "qty": 504,
+  "code": "544252",
+  "exchange": "BSE",
+  "yahoo": "544252.BO",
+  "google": "544252:BOM",
+  "fallback": {
+   "cmp": 112.85,
+   "pe": 85.72,
+   "eps": 2.53
+  }
+ },
+ {
+  "id": "511577",
+  "name": "Savani Financials",
+  "sector": "Financials",
+  "buyPrice": 24,
+  "qty": 1080,
+  "code": "511577",
+  "exchange": "BSE",
+  "yahoo": "511577.BO",
+  "google": "511577:BOM",
+  "fallback": {
+   "cmp": 14.86,
+   "pe": null,
+   "eps": null
+  }
+ },
+ {
+  "id": "AFFLE",
+  "name": "Affle India",
+  "sector": "Technology",
+  "buyPrice": 1151,
+  "qty": 50,
+  "code": "AFFLE",
+  "exchange": "NSE",
+  "yahoo": "AFFLE.NS",
+  "google": "AFFLE:NSE",
+  "fallback": {
+   "cmp": 1459.6,
+   "pe": 55.53,
+   "eps": 26.11
+  }
+ },
+ {
+  "id": "LTIM",
+  "name": "LTI Mindtree",
+  "sector": "Technology",
+  "buyPrice": 4775,
+  "qty": 16,
+  "code": "LTIM",
+  "exchange": "NSE",
+  "yahoo": "LTIM.NS",
+  "google": "LTIM:NSE",
+  "fallback": {
+   "cmp": 4793.8,
+   "pe": 34.69,
+   "eps": 145.92
+  }
+ },
+ {
+  "id": "542651",
+  "name": "KPIT Tech",
+  "sector": "Technology",
+  "buyPrice": 672,
+  "qty": 61,
+  "code": "542651",
+  "exchange": "BSE",
+  "yahoo": "542651.BO",
+  "google": "542651:BOM",
+  "fallback": {
+   "cmp": 1293.1,
+   "pe": 46.57,
+   "eps": 27.77
+  }
+ },
+ {
+  "id": "544028",
+  "name": "Tata Tech",
+  "sector": "Technology",
+  "buyPrice": 1072,
+  "qty": 63,
+  "code": "544028",
+  "exchange": "BSE",
+  "yahoo": "544028.BO",
+  "google": "544028:BOM",
+  "fallback": {
+   "cmp": 662.0,
+   "pe": 41.68,
+   "eps": 15.88
+  }
+ },
+ {
+  "id": "544107",
+  "name": "BLS E-Services",
+  "sector": "Technology",
+  "buyPrice": 232,
+  "qty": 191,
+  "code": "544107",
+  "exchange": "BSE",
+  "yahoo": "544107.BO",
+  "google": "544107:BOM",
+  "fallback": {
+   "cmp": 152.9,
+   "pe": 26.3,
+   "eps": 5.8
+  }
+ },
+ {
+  "id": "532790",
+  "name": "Tanla",
+  "sector": "Technology",
+  "buyPrice": 1134,
+  "qty": 45,
+  "code": "532790",
+  "exchange": "BSE",
+  "yahoo": "532790.BO",
+  "google": "532790:BOM",
+  "fallback": {
+   "cmp": 449.5,
+   "pe": 11.64,
+   "eps": 39.48
+  }
+ },
+ {
+  "id": "DMART",
+  "name": "Dmart",
+  "sector": "Consumer",
+  "buyPrice": 3777,
+  "qty": 27,
+  "code": "DMART",
+  "exchange": "NSE",
+  "yahoo": "DMART.NS",
+  "google": "DMART:NSE",
+  "fallback": {
+   "cmp": 3451.1,
+   "pe": 82.63,
+   "eps": 41.75
+  }
+ },
+ {
+  "id": "532540",
+  "name": "Tata Consumer",
+  "sector": "Consumer",
+  "buyPrice": 845,
+  "qty": 90,
+  "code": "532540",
+  "exchange": "BSE",
+  "yahoo": "532540.BO",
+  "google": "532540:BOM",
+  "fallback": {
+   "cmp": 961.1,
+   "pe": 26.56,
+   "eps": 134.77
+  }
+ },
+ {
+  "id": "500331",
+  "name": "Pidilite",
+  "sector": "Consumer",
+  "buyPrice": 2376,
+  "qty": 36,
+  "code": "500331",
+  "exchange": "BSE",
+  "yahoo": "500331.BO",
+  "google": "500331:BOM",
+  "fallback": {
+   "cmp": 2730.0,
+   "pe": 71.13,
+   "eps": 38.36
+  }
+ },
+ {
+  "id": "500400",
+  "name": "Tata Power",
+  "sector": "Power",
+  "buyPrice": 224,
+  "qty": 225,
+  "code": "500400",
+  "exchange": "BSE",
+  "yahoo": "500400.BO",
+  "google": "500400:BOM",
+  "fallback": {
+   "cmp": 351.0,
+   "pe": 29.36,
+   "eps": 11.94
+  }
+ },
+ {
+  "id": "542323",
+  "name": "KPI Green",
+  "sector": "Power",
+  "buyPrice": 875,
+  "qty": 50,
+  "code": "542323",
+  "exchange": "BSE",
+  "yahoo": "542323.BO",
+  "google": "542323:BOM",
+  "fallback": {
+   "cmp": 402.4,
+   "pe": 29.26,
+   "eps": 13.75
+  }
+ },
+ {
+  "id": "532667",
+  "name": "Suzlon",
+  "sector": "Power",
+  "buyPrice": 44,
+  "qty": 450,
+  "code": "532667",
+  "exchange": "BSE",
+  "yahoo": "532667.BO",
+  "google": "532667:BOM",
+  "fallback": {
+   "cmp": 51.36,
+   "pe": 61.25,
+   "eps": 0.84
+  }
+ },
+ {
+  "id": "542851",
+  "name": "Gensol",
+  "sector": "Power",
+  "buyPrice": 998,
+  "qty": 45,
+  "code": "542851",
+  "exchange": "BSE",
+  "yahoo": "542851.BO",
+  "google": "542851:BOM",
+  "fallback": {
+   "cmp": 372.6,
+   "pe": 39.51,
+   "eps": 5.57
+  }
+ },
+ {
+  "id": "543517",
+  "name": "Hariom Pipes",
+  "sector": "Pipes",
+  "buyPrice": 580,
+  "qty": 60,
+  "code": "543517",
+  "exchange": "BSE",
+  "yahoo": "543517.BO",
+  "google": "543517:BOM",
+  "fallback": {
+   "cmp": 355.75,
+   "pe": 17.98,
+   "eps": 19.78
+  }
+ },
+ {
+  "id": "ASTRAL",
+  "name": "Astral",
+  "sector": "Pipes",
+  "buyPrice": 1517,
+  "qty": 56,
+  "code": "ASTRAL",
+  "exchange": "NSE",
+  "yahoo": "ASTRAL.NS",
+  "google": "ASTRAL:NSE",
+  "fallback": {
+   "cmp": 1317.6,
+   "pe": 67.13,
+   "eps": 19.59
+  }
+ },
+ {
+  "id": "542652",
+  "name": "Polycab",
+  "sector": "Pipes",
+  "buyPrice": 2818,
+  "qty": 28,
+  "code": "542652",
+  "exchange": "BSE",
+  "yahoo": "542652.BO",
+  "google": "542652:BOM",
+  "fallback": {
+   "cmp": 5000.0,
+   "pe": 40.91,
+   "eps": 121.97
+  }
+ },
+ {
+  "id": "543318",
+  "name": "Clean Science",
+  "sector": "Others",
+  "buyPrice": 1610,
+  "qty": 32,
+  "code": "543318",
+  "exchange": "BSE",
+  "yahoo": "543318.BO",
+  "google": "543318:BOM",
+  "fallback": {
+   "cmp": 1237.45,
+   "pe": 50.37,
+   "eps": 24.52
+  }
+ },
+ {
+  "id": "506401",
+  "name": "Deepak Nitrite",
+  "sector": "Others",
+  "buyPrice": 2248,
+  "qty": 27,
+  "code": "506401",
+  "exchange": "BSE",
+  "yahoo": "506401.BO",
+  "google": "506401:BOM",
+  "fallback": {
+   "cmp": 1927.9,
+   "pe": 41.86,
+   "eps": 37.26
+  }
+ },
+ {
+  "id": "541557",
+  "name": "Fine Organic",
+  "sector": "Others",
+  "buyPrice": 4284,
+  "qty": 16,
+  "code": "541557",
+  "exchange": "BSE",
+  "yahoo": "541557.BO",
+  "google": "541557:BOM",
+  "fallback": {
+   "cmp": 3743.0,
+   "pe": 41.86,
+   "eps": 37.26
+  }
+ },
+ {
+  "id": "533282",
+  "name": "Gravita",
+  "sector": "Others",
+  "buyPrice": 2037,
+  "qty": 8,
+  "code": "533282",
+  "exchange": "BSE",
+  "yahoo": "533282.BO",
+  "google": "533282:BOM",
+  "fallback": {
+   "cmp": 1614.2,
+   "pe": 41.86,
+   "eps": 37.26
+  }
+ },
+ {
+  "id": "540719",
+  "name": "SBI Life",
+  "sector": "Others",
+  "buyPrice": 1197,
+  "qty": 49,
+  "code": "540719",
+  "exchange": "BSE",
+  "yahoo": "540719.BO",
+  "google": "540719:BOM",
+  "fallback": {
+   "cmp": 1405.45,
+   "pe": null,
+   "eps": -5.82
+  }
+ }
+]

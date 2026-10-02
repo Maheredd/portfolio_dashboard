@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { color-scheme: dark; }
+body { @apply bg-ink text-slate-100 font-sans antialiased; font-variant-numeric: tabular-nums; }
+:focus-visible { outline: 2px solid #f5b544; outline-offset: 2px; }
+
+@keyframes flashUp { from { background: rgba(43,212,138,.45); } to { background: transparent; } }
+@keyframes flashDown { from { background: rgba(255,92,108,.45); } to { background: transparent; } }
+.flash-up { animation: flashUp 1.2s ease-out; border-radius: 4px; padding: 0 4px; margin: 0 -4px; }
+.flash-down { animation: flashDown 1.2s ease-out; border-radius: 4px; padding: 0 4px; margin: 0 -4px; }
+@keyframes pulseDot { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+.live-dot { animation: pulseDot 1.6s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .flash-up, .flash-down, .live-dot { animation: none; } }
