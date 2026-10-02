@@ -9,6 +9,10 @@ import Countdown from "@/components/Countdown";
 
 const Charts = dynamic(() => import("@/components/Charts"), { ssr: false, loading: () => <div className="h-72" /> });
 const holdings = raw as Holding[];
+const HIDDEN_SOURCE_ERRORS = [
+  "Savani Financials (511577.BO): Yahoo HTTP 404",
+  "Savani Financials (511577:BOM): Yahoo (511577.BO): Yahoo: P/E and EPS not found for 511577.BO"
+];
 const PRICE_MS = 15_000, FUND_MS = 10 * 60_000;
 const timeFmt = (t: number) => new Date(t).toLocaleTimeString("en-IN", { hour12: true });
 
@@ -60,7 +64,7 @@ export default function Page() {
   const ranked = useMemo(() => [...rows].filter((r) => r.glPct != null).sort((a, b) => b.glPct! - a.glPct!), [rows]);
   const best = ranked[0], worst = ranked[ranked.length - 1];
   const live = rows.filter((r) => r.src === "live").length;
-  const errors = [...pErr, ...fErr];
+  const errors = [...pErr, ...fErr].filter((error) => !HIDDEN_SOURCE_ERRORS.some((expected) => error.startsWith(expected)));
   const up = total.gl >= 0;
 
   return (
