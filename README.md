@@ -44,7 +44,7 @@ Browser ── every 15 seconds ──> /api/prices ──> Yahoo Finance chart 
 Browser ── every 10 minutes ──> /api/fundamentals ──> Google Finance page (P/E, EPS)
 ```
 
-Both upstream requests run on the server. Holdings and fallback snapshot values are in [`src/data/portfolio.json`](src/data/portfolio.json). Update that file to change the portfolio. Alphabetic ticker symbols are mapped to NSE formats; numeric codes use BSE formats.
+Both upstream requests run on the server. Holdings and fallback snapshot values are in [`src/data/portfolio.json`](src/data/portfolio.json). Update that file to change the portfolio. NSE-listed holdings use their NSE ticker in Yahoo's `TICKER.NS` format and Google's `TICKER:NSE` format; the previous numeric BSE Yahoo symbol is retained as `yahooAlt` for price retries. Savani Financials remains BSE-only. LTI Mindtree's NSE symbol changed from `LTIM` to `LTM` on February 27, 2026, so requests use `LTM.NS` and `LTM:NSE`; its portfolio `id` remains `LTIM`.
 
 The server caches prices for 10 seconds and fundamentals for 10 minutes, shares concurrent requests for the same symbol, limits upstream concurrency, and applies request timeouts. The cache is in memory per server process.
 

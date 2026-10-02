@@ -1,7 +1,7 @@
 export type Src = "live" | "stale" | "snapshot";
 export interface Holding {
   id: string; name: string; sector: string; buyPrice: number; qty: number;
-  code: string; exchange: "NSE" | "BSE"; yahoo: string; google: string;
+  code: string; exchange: "NSE" | "BSE"; yahoo: string; yahooAlt?: string; google: string;
   fallback: { cmp: number | null; pe: number | null; eps: number | null };
 }
 export type PriceMap = Record<string, { cmp: number | null; src: Src; at: number | null }>;
