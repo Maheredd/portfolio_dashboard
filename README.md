@@ -2,7 +2,10 @@
 
 A live dashboard for tracking an Indian equity portfolio across NSE and BSE. It combines market prices and company fundamentals with a local holdings snapshot, then calculates portfolio value, returns, and sector allocation in one place.
 
+**Live Demo:** [portfolio-dashboard-blue-one.vercel.app](https://portfolio-dashboard-blue-one.vercel.app/)
+
 <p>
+    <a href="https://portfolio-dashboard-blue-one.vercel.app/"><img alt="Live demo" src="https://img.shields.io/badge/demo-live-0070f3?style=flat-square&logo=vercel&logoColor=white"></a>
     <a href="https://github.com/Maheredd/portfolio_dashboard/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Maheredd/portfolio_dashboard?style=flat-square&label=stars"></a>
     <a href="https://github.com/Maheredd/portfolio_dashboard/network/members"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Maheredd/portfolio_dashboard?style=flat-square&label=forks"></a>
     <a href="https://github.com/Maheredd/portfolio_dashboard/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/Maheredd/portfolio_dashboard?style=flat-square"></a>
